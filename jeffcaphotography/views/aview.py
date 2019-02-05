@@ -1,4 +1,4 @@
-from jeffcaphotography import app, mail
+from jeffcaphotography import app
 from flask import Flask, render_template, request, redirect, url_for, flash, Response
 # from stretching.models import *
 # from stretching.database import db_session

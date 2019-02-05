@@ -1,5 +1,4 @@
 from flask import Flask
-from flask_mail import Mail
 # from flask.ext.sqlalchemy import SQLAlchemy
 # import flask.ext.restless
 import base64
@@ -16,8 +15,6 @@ app.config.update(
 	MAIL_USERNAME = 'washingtoncapstaff@gmail.com',
 	MAIL_PASSWORD = 'rjdflibhucjwyafq'
 )
-
-mail = Mail(app)
 
 app.secret_key = 'B\xe82zO\x01\x05\x94\x9fm\xdc\x87\xbbliy\x16\x88_\x90\x99\xb5e\x98'
 
